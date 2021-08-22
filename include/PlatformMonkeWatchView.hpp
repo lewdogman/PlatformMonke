@@ -13,7 +13,7 @@ DECLARE_CLASS_CUSTOM(PlatformMonke, PlatformMonkeWatchView, GorillaUI::Component
     DECLARE_INSTANCE_METHOD(void, DrawBody);
     DECLARE_INSTANCE_METHOD(void, OnKeyPressed, int key);
     DECLARE_INSTANCE_METHOD(void, OnEnter, int key);
-    public:
+    private:
         GorillaUI::UISelectionHandler* settingSelector = nullptr;
         GorillaUI::UIToggleInputHandler* toggleHandler = nullptr;
         GorillaUI::UISelectionHandler* leftPlatSizeSelector = nullptr;
